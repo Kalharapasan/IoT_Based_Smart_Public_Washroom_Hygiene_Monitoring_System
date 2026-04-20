@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "534751239389",
+    "firebase_url": "https://smart-washroom-system-default-rtdb.firebaseio.com",
+    "project_id": "smart-washroom-system",
+    "storage_bucket": "smart-washroom-system.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534751239389:android:8613aa007c5f6b71e54f34",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoUbbRsuVS9dJohEi8dQwx-JVTzcu8Nmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
