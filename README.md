@@ -31,6 +31,41 @@ This project demonstrates an IoT-based smart public washroom hygiene monitoring 
 - `fl_chart` for usage visualization
 - IoT controller and sensor data feed from the washroom prototype
 
+### System Flow
+
+1. Sensors and controller hardware collect washroom status data.
+2. The data is pushed to Firebase Realtime Database.
+3. The Flutter app listens to live updates from `Live_Status`.
+4. Historical records are loaded from `History_Log`.
+5. The app displays current values, charts, and alert controls in real time.
+
+### Main Components
+
+- `main.dart`: app entry point and navigation shell
+- Home page: live status cards for occupancy, water, gas, and SMS state
+- Analytics page: usage chart and peak usage summary
+- History page: event timeline with usage snapshots
+- Settings page: alert preferences and threshold control
+
+### Requirements
+
+- Flutter SDK 3.10 or later
+- Firebase project configured for Realtime Database
+- Android Studio, VS Code, or another Flutter-supported editor
+- A connected device or emulator for testing
+
+### Run the App
+
+1. Open the `app` folder in your Flutter environment.
+2. Run `flutter pub get` to install dependencies.
+3. Ensure Firebase configuration files are present in the Android and iOS platforms.
+4. Start the app with `flutter run`.
+
+### Notes
+
+- The analytics screen uses a sample chart layout and can be replaced with live database-driven trend data.
+- The settings screen currently provides a UI for alert controls; backend persistence can be added if needed.
+
 ### Media Gallery
 
 <table>
