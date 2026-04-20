@@ -2,31 +2,64 @@
 
 ## Project Details
 
-This project demonstrates an IoT-based smart public washroom hygiene monitoring system. It combines hardware and software components to monitor washroom conditions and present the data in a Flutter application.
+This project demonstrates an IoT-based smart public washroom hygiene monitoring system. It combines hardware and software components to monitor washroom conditions and present the data in a Flutter application connected to Firebase Realtime Database.
 
 ### What It Shows
 
-- Washroom monitoring prototype and controller hardware
-- Mobile and dashboard application screens
-- Demonstration videos of the working setup
+- Real-time washroom occupancy monitoring
+- Water level and gas level status tracking
+- Total usage analytics and event history
+- SMS status monitoring for alerts
+- Settings for notifications and threshold control
+
+### App Features
+
+- Home dashboard: live occupancy, water level, gas level, total usage, and last SMS status
+- Analytics screen: usage trend chart and peak usage summary
+- History screen: event log with usage and water level snapshots
+- Settings screen: notification toggle, water alert threshold, GSM alert number, and logout action
+
+### Data Sources
+
+- `Live_Status` for current sensor and alert values
+- `History_Log` for stored event history
+
+### Hardware and Software Stack
+
+- Flutter mobile app with Material 3 UI
+- Firebase Core and Firebase Realtime Database
+- `fl_chart` for usage visualization
+- IoT controller and sensor data feed from the washroom prototype
 
 ### Media Gallery
 
-![Washroom prototype 1](Image/WhatsApp%20Image%202026-04-06%20at%2012.08.33%20AM.jpeg)
-![Washroom prototype 2](Image/WhatsApp%20Image%202026-04-06%20at%2012.08.33%20AM%20(1).jpeg)
-![Washroom prototype 3](Image/WhatsApp%20Image%202026-04-06%20at%2012.08.34%20AM.jpeg)
-![Washroom prototype 4](Image/WhatsApp%20Image%202026-04-06%20at%2012.08.34%20AM%20(1).jpeg)
-![Washroom prototype 5](Image/WhatsApp%20Image%202026-04-06%20at%2012.08.34%20AM%20(2).jpeg)
-![Washroom prototype 6](Image/WhatsApp%20Image%202026-04-06%20at%2012.08.35%20AM.jpeg)
-![Washroom prototype 7](Image/WhatsApp%20Image%202026-04-06%20at%2012.08.35%20AM%20(1).jpeg)
-![Washroom prototype 8](Image/WhatsApp%20Image%202026-04-06%20at%2012.26.04%20AM.jpeg)
-![Washroom prototype 9](Image/WhatsApp%20Image%202026-04-06%20at%2012.26.08%20AM.jpeg)
-![Washroom prototype 10](Image/WhatsApp%20Image%202026-04-06%20at%2012.26.09%20AM.jpeg)
-![Washroom prototype 11](Image/WhatsApp%20Image%202026-04-06%20at%2012.26.10%20AM.jpeg)
-![Washroom prototype 12](Image/WhatsApp%20Image%202026-04-06%20at%2012.30.36%20AM.jpeg)
-![Washroom prototype 13](Image/WhatsApp%20Image%202026-04-06%20at%2012.30.49%20AM.jpeg)
-![Washroom prototype 14](Image/WhatsApp%20Image%202026-04-06%20at%2012.30.58%20AM.jpeg)
-![Washroom prototype 15](Image/WhatsApp%20Image%202026-04-06%20at%2012.38.53%20AM.jpeg)
+<table>
+	<tr>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.08.33%20AM.jpeg" width="140" alt="Washroom prototype 1"></td>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.08.33%20AM%20(1).jpeg" width="140" alt="Washroom prototype 2"></td>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.08.34%20AM.jpeg" width="140" alt="Washroom prototype 3"></td>
+	</tr>
+	<tr>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.08.34%20AM%20(1).jpeg" width="140" alt="Washroom prototype 4"></td>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.08.34%20AM%20(2).jpeg" width="140" alt="Washroom prototype 5"></td>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.08.35%20AM.jpeg" width="140" alt="Washroom prototype 6"></td>
+	</tr>
+	<tr>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.08.35%20AM%20(1).jpeg" width="140" alt="Washroom prototype 7"></td>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.26.04%20AM.jpeg" width="140" alt="Washroom prototype 8"></td>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.26.08%20AM.jpeg" width="140" alt="Washroom prototype 9"></td>
+	</tr>
+	<tr>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.26.09%20AM.jpeg" width="140" alt="Washroom prototype 10"></td>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.26.10%20AM.jpeg" width="140" alt="Washroom prototype 11"></td>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.30.36%20AM.jpeg" width="140" alt="Washroom prototype 12"></td>
+	</tr>
+	<tr>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.30.49%20AM.jpeg" width="140" alt="Washroom prototype 13"></td>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.30.58%20AM.jpeg" width="140" alt="Washroom prototype 14"></td>
+		<td><img src="Image/WhatsApp%20Image%202026-04-06%20at%2012.38.53%20AM.jpeg" width="140" alt="Washroom prototype 15"></td>
+	</tr>
+</table>
 
 ### Video Preview
 
